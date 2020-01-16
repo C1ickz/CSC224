@@ -1,0 +1,9 @@
+H:\CSC224\lab01\InvoiceTotal\InvoiceTotal\obj\Debug\InvoiceTotal.csprojAssemblyReference.cache
+H:\CSC224\lab01\InvoiceTotal\InvoiceTotal\obj\Debug\InvoiceTotal.Properties.Resources.resources
+H:\CSC224\lab01\InvoiceTotal\InvoiceTotal\obj\Debug\InvoiceTotal.csproj.GenerateResource.cache
+H:\CSC224\lab01\InvoiceTotal\InvoiceTotal\bin\Debug\InvoiceTotal.exe.config
+H:\CSC224\lab01\InvoiceTotal\InvoiceTotal\bin\Debug\InvoiceTotal.exe
+H:\CSC224\lab01\InvoiceTotal\InvoiceTotal\bin\Debug\InvoiceTotal.pdb
+H:\CSC224\lab01\InvoiceTotal\InvoiceTotal\obj\Debug\InvoiceTotal.exe
+H:\CSC224\lab01\InvoiceTotal\InvoiceTotal\obj\Debug\InvoiceTotal.pdb
+H:\CSC224\lab01\InvoiceTotal\InvoiceTotal\obj\Debug\InvoiceTotal.frmInvoiceTotal.resources
