@@ -34,7 +34,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.txtOutputArea = new System.Windows.Forms.TextBox();
-            this.btnGenReport = new System.Windows.Forms.Button();
+            this.BtnGenReport = new System.Windows.Forms.Button();
             this.txtName = new System.Windows.Forms.TextBox();
             this.txtAge = new System.Windows.Forms.TextBox();
             this.txtRetireAge = new System.Windows.Forms.TextBox();
@@ -92,18 +92,20 @@
             this.txtOutputArea.Location = new System.Drawing.Point(54, 212);
             this.txtOutputArea.Multiline = true;
             this.txtOutputArea.Name = "txtOutputArea";
+            this.txtOutputArea.ReadOnly = true;
+            this.txtOutputArea.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtOutputArea.Size = new System.Drawing.Size(600, 226);
             this.txtOutputArea.TabIndex = 5;
             // 
-            // btnGenReport
+            // BtnGenReport
             // 
-            this.btnGenReport.Location = new System.Drawing.Point(157, 166);
-            this.btnGenReport.Name = "btnGenReport";
-            this.btnGenReport.Size = new System.Drawing.Size(242, 23);
-            this.btnGenReport.TabIndex = 6;
-            this.btnGenReport.Text = "Generate Report";
-            this.btnGenReport.UseVisualStyleBackColor = true;
-            this.btnGenReport.Click += new System.EventHandler(this.btnGenReport_Click);
+            this.BtnGenReport.Location = new System.Drawing.Point(157, 166);
+            this.BtnGenReport.Name = "BtnGenReport";
+            this.BtnGenReport.Size = new System.Drawing.Size(242, 23);
+            this.BtnGenReport.TabIndex = 6;
+            this.BtnGenReport.Text = "Generate Report";
+            this.BtnGenReport.UseVisualStyleBackColor = true;
+            this.BtnGenReport.Click += new System.EventHandler(this.BtnGenReport_Click);
             // 
             // txtName
             // 
@@ -150,7 +152,7 @@
             this.Controls.Add(this.txtRetireAge);
             this.Controls.Add(this.txtAge);
             this.Controls.Add(this.txtName);
-            this.Controls.Add(this.btnGenReport);
+            this.Controls.Add(this.BtnGenReport);
             this.Controls.Add(this.txtOutputArea);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -172,7 +174,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtOutputArea;
-        private System.Windows.Forms.Button btnGenReport;
+        private System.Windows.Forms.Button BtnGenReport;
         private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.TextBox txtAge;
         private System.Windows.Forms.TextBox txtRetireAge;
