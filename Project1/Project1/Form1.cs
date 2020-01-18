@@ -34,17 +34,33 @@ namespace Project1
             decimal interestEarned = 0m;
             decimal endingBal = annualInvest;
             int year = 2020;
+            
+            txtOutputArea.AppendText("IRA Summary Projection for " + txtName.Text + "\r\n\r\n");
+            txtOutputArea.AppendText("Fixed Annual Investment:  " + annualInvest.ToString("c") + "\t Annual Interest Rate: " + interestRate.ToString("#0.##%") + "\r\n\r\n");
+            
+            txtOutputArea.AppendText($"{"Year",10}" +
+                                     $"{"Age",10}" +
+                                     $"{"Beggining Balance",10}" +
+                                     $"{"Annual Investment",10}" +
+                                     $"{"Interest Earned",10}"+
+                                     $"{"Ending Balance",10}\r\n");
 
-            txtOutputArea.AppendText("IRA Summary Projection for " + txtName.Text + "\r\n \r\n");
-            txtOutputArea.AppendText("Fixed Annual Investment:  " + annualInvest.ToString("c") + "\t Annual Interest Rate: " + interestRate.ToString("#0.##%") + "\r\n \r\n");
-
-
-
+            
 
             for (int i = age; i <= retireAge; i++)
             {
-                
-                txtOutputArea.AppendText(year + "\t" + age + "\t" + begginingBal.ToString("c") + "\t" + annualInvest.ToString("c") + "\t" + interestEarned.ToString("c") + "\t" + endingBal.ToString("c") + "\r\n");
+
+                txtOutputArea.AppendText($"{year,10}"+
+                    $"{age,10}"+
+                    $"{begginingBal.ToString("c"),14}"+
+                    $"{annualInvest.ToString("c"),14}"+
+                    $"{interestEarned.ToString("c"),14}"+
+                    $"{endingBal.ToString("c"),14}" + "\r\n");
+                Console.WriteLine("{0,10}{1,10}",
+  age,
+  begginingBal.ToString("c"));
+
+
                 interestEarned = begginingBal * interestRate;
                 endingBal = begginingBal + annualInvest + interestEarned;
                 begginingBal = endingBal;
@@ -52,11 +68,10 @@ namespace Project1
                 year++;
                 
             }
-
+            
 
             
         }
-
 
     }
 }

@@ -89,19 +89,20 @@
             // 
             // txtOutputArea
             // 
+            this.txtOutputArea.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtOutputArea.Location = new System.Drawing.Point(54, 212);
             this.txtOutputArea.Multiline = true;
             this.txtOutputArea.Name = "txtOutputArea";
             this.txtOutputArea.ReadOnly = true;
             this.txtOutputArea.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtOutputArea.Size = new System.Drawing.Size(600, 226);
+            this.txtOutputArea.Size = new System.Drawing.Size(706, 226);
             this.txtOutputArea.TabIndex = 5;
             // 
             // BtnGenReport
             // 
-            this.BtnGenReport.Location = new System.Drawing.Point(157, 166);
+            this.BtnGenReport.Location = new System.Drawing.Point(233, 170);
             this.BtnGenReport.Name = "BtnGenReport";
-            this.BtnGenReport.Size = new System.Drawing.Size(242, 23);
+            this.BtnGenReport.Size = new System.Drawing.Size(340, 23);
             this.BtnGenReport.TabIndex = 6;
             this.BtnGenReport.Text = "Generate Report";
             this.BtnGenReport.UseVisualStyleBackColor = true;
