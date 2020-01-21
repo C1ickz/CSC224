@@ -28,8 +28,8 @@ namespace InvoiceTotal
 			decimal discountPercent = .25m;
 			decimal discountAmount = Math.Round(subtotal * discountPercent,2);
 			decimal invoiceTotal = Math.Round(subtotal - discountAmount,2);
-			decimal largest = 0m;
-			decimal smallest = 0m;
+			decimal largest = Decimal.MinValue;
+			decimal smallest = Decimal.MaxValue;
 
 			txtDiscountPercent.Text = discountPercent.ToString("p1");
 			txtDiscountAmount.Text = discountAmount.ToString();
@@ -42,10 +42,17 @@ namespace InvoiceTotal
 			txtNoOfInvoices.Text = numberOfInvoices.ToString();
 			txtTotalofInvoices.Text = totalOfInvoices.ToString("c");
 			txtInvoiceAvg.Text = invoiceAvg.ToString("c");
-			if(Decimal.MinValue > largest)
+			if(smallest < subtotal)
+			{
+				smallest = subtotal
+			}
+			else if(largest > subtotal)
 			{
 				largest = subtotal;
 			}
+
+			txtSmallestInvoice.Text = smallest.ToString("c");
+			txtLargestInvoice.Text = largest.ToString("c");
 
 
 			txtSubtotal.Text = String.Empty;
