@@ -1,0 +1,9 @@
+H:\CSC224\lab03\FutureValue\FutureValue\obj\Debug\FutureValue.csprojAssemblyReference.cache
+H:\CSC224\lab03\FutureValue\FutureValue\obj\Debug\FutureValue.Form1.resources
+H:\CSC224\lab03\FutureValue\FutureValue\obj\Debug\FutureValue.Properties.Resources.resources
+H:\CSC224\lab03\FutureValue\FutureValue\obj\Debug\FutureValue.csproj.GenerateResource.cache
+H:\CSC224\lab03\FutureValue\FutureValue\bin\Debug\FutureValue.exe.config
+H:\CSC224\lab03\FutureValue\FutureValue\bin\Debug\FutureValue.exe
+H:\CSC224\lab03\FutureValue\FutureValue\bin\Debug\FutureValue.pdb
+H:\CSC224\lab03\FutureValue\FutureValue\obj\Debug\FutureValue.exe
+H:\CSC224\lab03\FutureValue\FutureValue\obj\Debug\FutureValue.pdb
