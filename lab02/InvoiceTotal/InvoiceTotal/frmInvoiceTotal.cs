@@ -21,6 +21,8 @@ namespace InvoiceTotal
 		int numberOfInvoices = 0;
 		decimal totalOfInvoices = 0m;
 		decimal invoiceAvg = 0m;
+		decimal largest = Decimal.MinValue;
+		decimal smallest = Decimal.MaxValue;
 
 		private void btnCalculate_Click(object sender, EventArgs e)
 		{
@@ -28,11 +30,10 @@ namespace InvoiceTotal
 			decimal discountPercent = .25m;
 			decimal discountAmount = Math.Round(subtotal * discountPercent,2);
 			decimal invoiceTotal = Math.Round(subtotal - discountAmount,2);
-			decimal largest = Decimal.MinValue;
-			decimal smallest = Decimal.MaxValue;
+
 
 			txtDiscountPercent.Text = discountPercent.ToString("p1");
-			txtDiscountAmount.Text = discountAmount.ToString();
+			txtDiscountAmount.Text = discountAmount.ToString("c");
 			txtTotal.Text = invoiceTotal.ToString();
 
 			numberOfInvoices++;
@@ -42,11 +43,11 @@ namespace InvoiceTotal
 			txtNoOfInvoices.Text = numberOfInvoices.ToString();
 			txtTotalofInvoices.Text = totalOfInvoices.ToString("c");
 			txtInvoiceAvg.Text = invoiceAvg.ToString("c");
-			if(smallest < subtotal)
+			if(subtotal < smallest)
 			{
-				smallest = subtotal
+				smallest = subtotal;
 			}
-			else if(largest > subtotal)
+			if(subtotal > largest)
 			{
 				largest = subtotal;
 			}

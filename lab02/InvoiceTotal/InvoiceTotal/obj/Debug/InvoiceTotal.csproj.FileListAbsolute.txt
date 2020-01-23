@@ -54,3 +54,12 @@ H:\CSC224\lab02\InvoiceTotal\InvoiceTotal\obj\Debug\InvoiceTotal.Properties.Reso
 H:\CSC224\lab02\InvoiceTotal\InvoiceTotal\obj\Debug\InvoiceTotal.csproj.GenerateResource.cache
 H:\CSC224\lab02\InvoiceTotal\InvoiceTotal\obj\Debug\InvoiceTotal.exe
 H:\CSC224\lab02\InvoiceTotal\InvoiceTotal\obj\Debug\InvoiceTotal.pdb
+C:\Users\Ryan\Documents\GitHub\CSC224\lab02\InvoiceTotal\InvoiceTotal\bin\Debug\InvoiceTotal.exe.config
+C:\Users\Ryan\Documents\GitHub\CSC224\lab02\InvoiceTotal\InvoiceTotal\bin\Debug\InvoiceTotal.exe
+C:\Users\Ryan\Documents\GitHub\CSC224\lab02\InvoiceTotal\InvoiceTotal\bin\Debug\InvoiceTotal.pdb
+C:\Users\Ryan\Documents\GitHub\CSC224\lab02\InvoiceTotal\InvoiceTotal\obj\Debug\InvoiceTotal.csprojAssemblyReference.cache
+C:\Users\Ryan\Documents\GitHub\CSC224\lab02\InvoiceTotal\InvoiceTotal\obj\Debug\InvoiceTotal.frmInvoiceTotal.resources
+C:\Users\Ryan\Documents\GitHub\CSC224\lab02\InvoiceTotal\InvoiceTotal\obj\Debug\InvoiceTotal.Properties.Resources.resources
+C:\Users\Ryan\Documents\GitHub\CSC224\lab02\InvoiceTotal\InvoiceTotal\obj\Debug\InvoiceTotal.csproj.GenerateResource.cache
+C:\Users\Ryan\Documents\GitHub\CSC224\lab02\InvoiceTotal\InvoiceTotal\obj\Debug\InvoiceTotal.exe
+C:\Users\Ryan\Documents\GitHub\CSC224\lab02\InvoiceTotal\InvoiceTotal\obj\Debug\InvoiceTotal.pdb
