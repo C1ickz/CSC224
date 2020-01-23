@@ -60,7 +60,7 @@ namespace Project1
 
                 txtOutputArea.AppendText($"{"Year",10}" +
                                          $"{"Age",10}" +
-                                         $"{"Beggining Balance",20}" +
+                                         $"{"Beggining Balance",10}" +
                                          $"{"Annual Investment",10}" +
                                          $"{"Interest Earned",10}" +
                                          $"{"Ending Balance",10}\r\n\r\n\r\n");
