@@ -7,3 +7,12 @@ H:\CSC224\lab03\FutureValue\FutureValue\bin\Debug\FutureValue.exe
 H:\CSC224\lab03\FutureValue\FutureValue\bin\Debug\FutureValue.pdb
 H:\CSC224\lab03\FutureValue\FutureValue\obj\Debug\FutureValue.exe
 H:\CSC224\lab03\FutureValue\FutureValue\obj\Debug\FutureValue.pdb
+C:\Users\Ryan\Documents\GitHub\CSC224\lab03\FutureValue\FutureValue\bin\Debug\FutureValue.exe.config
+C:\Users\Ryan\Documents\GitHub\CSC224\lab03\FutureValue\FutureValue\bin\Debug\FutureValue.exe
+C:\Users\Ryan\Documents\GitHub\CSC224\lab03\FutureValue\FutureValue\bin\Debug\FutureValue.pdb
+C:\Users\Ryan\Documents\GitHub\CSC224\lab03\FutureValue\FutureValue\obj\Debug\FutureValue.csprojAssemblyReference.cache
+C:\Users\Ryan\Documents\GitHub\CSC224\lab03\FutureValue\FutureValue\obj\Debug\FutureValue.Form1.resources
+C:\Users\Ryan\Documents\GitHub\CSC224\lab03\FutureValue\FutureValue\obj\Debug\FutureValue.Properties.Resources.resources
+C:\Users\Ryan\Documents\GitHub\CSC224\lab03\FutureValue\FutureValue\obj\Debug\FutureValue.csproj.GenerateResource.cache
+C:\Users\Ryan\Documents\GitHub\CSC224\lab03\FutureValue\FutureValue\obj\Debug\FutureValue.exe
+C:\Users\Ryan\Documents\GitHub\CSC224\lab03\FutureValue\FutureValue\obj\Debug\FutureValue.pdb

@@ -28,17 +28,15 @@ namespace FutureValue
             txtFutureVal.Text = String.Empty;
             decimal monthlyInvest = Convert.ToDecimal(txtMonthlyInvest.Text);
             int years = Convert.ToInt32(txtYears.Text);
-            decimal interestRate = Convert.ToDecimal(txtInterestRate.Text);
+            decimal yearlyInterest = Convert.ToDecimal(txtInterestRate.Text);
+            decimal interestRate = yearlyInterest / 12 /100;
             decimal futureValue = 0m;
-            decimal yearlyInvest = monthlyInvest * 12;
-            decimal begginingBalance = 0m;
-            decimal interestEarned = 0m;
+            int months = years * 12;
 
  
-            for (int i = 0; i <= years; i++)
+            for (int i = 0; i < months; i++)
             {
-                interestEarned = yearlyInvest * interestRate;
-                futureValue = begginingBalance + yearlyInvest + interestEarned;
+              futureValue = (futureValue + monthlyInvest) * (1 + interestRate);
             }
 
             txtFutureVal.Text = futureValue.ToString("c");
