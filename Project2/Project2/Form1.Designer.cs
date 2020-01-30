@@ -34,6 +34,7 @@
             this.btnSetup = new System.Windows.Forms.Button();
             this.btnProcess = new System.Windows.Forms.Button();
             this.txtOutput = new System.Windows.Forms.TextBox();
+            this.clearInput = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -92,14 +93,25 @@
             this.txtOutput.Name = "txtOutput";
             this.txtOutput.ReadOnly = true;
             this.txtOutput.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtOutput.Size = new System.Drawing.Size(565, 160);
+            this.txtOutput.Size = new System.Drawing.Size(635, 208);
             this.txtOutput.TabIndex = 5;
+            // 
+            // clearInput
+            // 
+            this.clearInput.Location = new System.Drawing.Point(460, 149);
+            this.clearInput.Name = "clearInput";
+            this.clearInput.Size = new System.Drawing.Size(125, 23);
+            this.clearInput.TabIndex = 6;
+            this.clearInput.Text = "Clear Inputted Data";
+            this.clearInput.UseVisualStyleBackColor = true;
+            this.clearInput.Click += new System.EventHandler(this.clearInput_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.clearInput);
             this.Controls.Add(this.txtOutput);
             this.Controls.Add(this.btnProcess);
             this.Controls.Add(this.btnSetup);
@@ -121,6 +133,7 @@
         private System.Windows.Forms.Button btnSetup;
         private System.Windows.Forms.Button btnProcess;
         private System.Windows.Forms.TextBox txtOutput;
+        private System.Windows.Forms.Button clearInput;
     }
 }
 
