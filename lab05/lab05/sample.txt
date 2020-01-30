@@ -1,0 +1,7 @@
+This is a test of reading text files in C#
+
+Sure hope this works...
+
+How nice is this?
+
+This is the last line in the file

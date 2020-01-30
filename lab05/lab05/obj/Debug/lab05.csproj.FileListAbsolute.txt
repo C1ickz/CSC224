@@ -1,0 +1,9 @@
+H:\CSC224\lab05\lab05\bin\Debug\lab05.exe.config
+H:\CSC224\lab05\lab05\bin\Debug\lab05.exe
+H:\CSC224\lab05\lab05\bin\Debug\lab05.pdb
+H:\CSC224\lab05\lab05\obj\Debug\lab05.csprojAssemblyReference.cache
+H:\CSC224\lab05\lab05\obj\Debug\lab05.Form1.resources
+H:\CSC224\lab05\lab05\obj\Debug\lab05.Properties.Resources.resources
+H:\CSC224\lab05\lab05\obj\Debug\lab05.csproj.GenerateResource.cache
+H:\CSC224\lab05\lab05\obj\Debug\lab05.exe
+H:\CSC224\lab05\lab05\obj\Debug\lab05.pdb
