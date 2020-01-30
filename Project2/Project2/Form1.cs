@@ -1,4 +1,12 @@
-﻿using System;
+﻿/******************************
+ * CSC 224
+ * Programming Assignment # 2
+ * Author:  Ryan Harris
+ * Date:  January 30, 2020
+ ******************************/
+
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -67,10 +75,12 @@ namespace Project2
                 {
                     txtOutput.AppendText("*");
                 }
-                txtOutput.AppendText(sales + "\r\n");
+                txtOutput.AppendText("(" +sales + ")" + "\r\n");
             }
 
             txtOutput.AppendText("         +");
+
+            //dyanmic chaning graph scale
             for(int i = 0; i< largest; i++)
             {
                 txtOutput.AppendText("=");
@@ -80,12 +90,12 @@ namespace Project2
             int greatestDivisor = divisor(largest); 
             int num = 0;
 
-            
+            //Dynamically changing number scaling
             for (int i = 0; i <= largest / greatestDivisor; i++)
             {
-                num = num / 2;
+
                 txtOutput.AppendText(num.ToString());
-                for (int j = 0; j < greatestDivisor/2 - 1; j++)
+                for (int j = 0; j < greatestDivisor - 1; j++)
                 {
                     txtOutput.AppendText(" ");
                 }
