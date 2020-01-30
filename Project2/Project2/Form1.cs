@@ -124,6 +124,11 @@ namespace Project2
             btnSetup_Click(sender, e);
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
        

@@ -7,3 +7,12 @@ C:\Users\Ryan\Documents\GitHub\CSC224\Project2\Project2\bin\Debug\Project2.exe
 C:\Users\Ryan\Documents\GitHub\CSC224\Project2\Project2\bin\Debug\Project2.pdb
 C:\Users\Ryan\Documents\GitHub\CSC224\Project2\Project2\obj\Debug\Project2.exe
 C:\Users\Ryan\Documents\GitHub\CSC224\Project2\Project2\obj\Debug\Project2.pdb
+H:\CSC224\Project2\Project2\bin\Debug\Project2.exe.config
+H:\CSC224\Project2\Project2\bin\Debug\Project2.exe
+H:\CSC224\Project2\Project2\bin\Debug\Project2.pdb
+H:\CSC224\Project2\Project2\obj\Debug\Project2.csprojAssemblyReference.cache
+H:\CSC224\Project2\Project2\obj\Debug\Project2.Form1.resources
+H:\CSC224\Project2\Project2\obj\Debug\Project2.Properties.Resources.resources
+H:\CSC224\Project2\Project2\obj\Debug\Project2.csproj.GenerateResource.cache
+H:\CSC224\Project2\Project2\obj\Debug\Project2.exe
+H:\CSC224\Project2\Project2\obj\Debug\Project2.pdb
