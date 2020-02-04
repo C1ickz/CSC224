@@ -31,7 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtFileName = new System.Windows.Forms.TextBox();
             this.txtOutput = new System.Windows.Forms.TextBox();
-            this.btnClearFileName = new System.Windows.Forms.Button();
+            this.btnBrowse = new System.Windows.Forms.Button();
             this.btnReadInput = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -60,15 +60,15 @@
             this.txtOutput.Size = new System.Drawing.Size(523, 218);
             this.txtOutput.TabIndex = 2;
             // 
-            // btnClearFileName
+            // btnBrowse
             // 
-            this.btnClearFileName.Location = new System.Drawing.Point(383, 43);
-            this.btnClearFileName.Name = "btnClearFileName";
-            this.btnClearFileName.Size = new System.Drawing.Size(118, 23);
-            this.btnClearFileName.TabIndex = 3;
-            this.btnClearFileName.Text = "Clear FileName Field";
-            this.btnClearFileName.UseVisualStyleBackColor = true;
-            this.btnClearFileName.Click += new System.EventHandler(this.btnClearFileName_Click);
+            this.btnBrowse.Location = new System.Drawing.Point(383, 43);
+            this.btnBrowse.Name = "btnBrowse";
+            this.btnBrowse.Size = new System.Drawing.Size(118, 23);
+            this.btnBrowse.TabIndex = 3;
+            this.btnBrowse.Text = "Browse";
+            this.btnBrowse.UseVisualStyleBackColor = true;
+            this.btnBrowse.Click += new System.EventHandler(this.btnBrowse_Click);
             // 
             // btnReadInput
             // 
@@ -86,7 +86,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(550, 450);
             this.Controls.Add(this.btnReadInput);
-            this.Controls.Add(this.btnClearFileName);
+            this.Controls.Add(this.btnBrowse);
             this.Controls.Add(this.txtOutput);
             this.Controls.Add(this.txtFileName);
             this.Controls.Add(this.label1);
@@ -102,7 +102,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtFileName;
         private System.Windows.Forms.TextBox txtOutput;
-        private System.Windows.Forms.Button btnClearFileName;
+        private System.Windows.Forms.Button btnBrowse;
         private System.Windows.Forms.Button btnReadInput;
     }
 }

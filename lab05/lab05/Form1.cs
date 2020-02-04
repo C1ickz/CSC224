@@ -18,9 +18,16 @@ namespace lab05
             InitializeComponent();
         }
 
-        private void btnClearFileName_Click(object sender, EventArgs e)
+        private void btnBrowse_Click(object sender, EventArgs e)
         {
-            txtFileName.Text = String.Empty;
+            OpenFileDialog fileDialog = new OpenFileDialog();
+            fileDialog.InitialDirectory = "h:\\CSC224\\";
+            fileDialog.Filter = "Text files (*.txt)|*.txt|All files (*.*)|*.*";
+            if (fileDialog.ShowDialog() == DialogResult.OK)
+            {
+                string fileName = fileDialog.FileName;
+                txtFileName.Text = fileName;
+            }
         }
 
         private void btnReadInput_Click(object sender, EventArgs e)
