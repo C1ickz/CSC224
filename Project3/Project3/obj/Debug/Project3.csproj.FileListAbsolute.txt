@@ -1,0 +1,9 @@
+C:\Users\harrisrl2023\source\repos\Project3\Project3\bin\Debug\Project3.exe.config
+C:\Users\harrisrl2023\source\repos\Project3\Project3\bin\Debug\Project3.exe
+C:\Users\harrisrl2023\source\repos\Project3\Project3\bin\Debug\Project3.pdb
+C:\Users\harrisrl2023\source\repos\Project3\Project3\obj\Debug\Project3.csprojAssemblyReference.cache
+C:\Users\harrisrl2023\source\repos\Project3\Project3\obj\Debug\Project3.Form1.resources
+C:\Users\harrisrl2023\source\repos\Project3\Project3\obj\Debug\Project3.Properties.Resources.resources
+C:\Users\harrisrl2023\source\repos\Project3\Project3\obj\Debug\Project3.csproj.GenerateResource.cache
+C:\Users\harrisrl2023\source\repos\Project3\Project3\obj\Debug\Project3.exe
+C:\Users\harrisrl2023\source\repos\Project3\Project3\obj\Debug\Project3.pdb

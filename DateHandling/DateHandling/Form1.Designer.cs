@@ -72,6 +72,7 @@ namespace DateHandling
             this.txtBirthDate.Size = new System.Drawing.Size(83, 20);
             this.txtBirthDate.TabIndex = 9;
             this.txtBirthDate.Text = "10/24/52";
+            this.txtBirthDate.TextChanged += new System.EventHandler(this.txtBirthDate_TextChanged);
             // 
             // txtFutureDate
             // 

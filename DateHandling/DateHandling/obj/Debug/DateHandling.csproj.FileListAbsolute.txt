@@ -45,3 +45,12 @@ C:\Users\Ryan\Documents\GitHub\CSC224\DateHandling\DateHandling\obj\Debug\DateHa
 C:\Users\Ryan\Documents\GitHub\CSC224\DateHandling\DateHandling\obj\Debug\DateHandling.csproj.GenerateResource.cache
 C:\Users\Ryan\Documents\GitHub\CSC224\DateHandling\DateHandling\obj\Debug\DateHandling.exe
 C:\Users\Ryan\Documents\GitHub\CSC224\DateHandling\DateHandling\obj\Debug\DateHandling.pdb
+H:\CSC224\DateHandling\DateHandling\bin\Debug\DateHandling.exe.config
+H:\CSC224\DateHandling\DateHandling\bin\Debug\DateHandling.exe
+H:\CSC224\DateHandling\DateHandling\bin\Debug\DateHandling.pdb
+H:\CSC224\DateHandling\DateHandling\obj\Debug\DateHandling.csprojAssemblyReference.cache
+H:\CSC224\DateHandling\DateHandling\obj\Debug\DateHandling.Form1.resources
+H:\CSC224\DateHandling\DateHandling\obj\Debug\DateHandling.Properties.Resources.resources
+H:\CSC224\DateHandling\DateHandling\obj\Debug\DateHandling.csproj.GenerateResource.cache
+H:\CSC224\DateHandling\DateHandling\obj\Debug\DateHandling.exe
+H:\CSC224\DateHandling\DateHandling\obj\Debug\DateHandling.pdb

@@ -39,13 +39,18 @@ namespace DateHandling
             // TODO: Add code to calculate the days until due date
             MessageBox.Show("Current date: \t" + txtFutureDate.Text + "\n\n\n " +
              "Birth Date: \t" + txtBirthDate.Text + "\n\n\n" +
-             "Age: \t" + dueDays);
+             "Age: \t\t" + dueDays);
 
         }
 
         private void btnExit_Click(object sender, System.EventArgs e)
         {
             this.Close();
+        }
+
+        private void txtBirthDate_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
