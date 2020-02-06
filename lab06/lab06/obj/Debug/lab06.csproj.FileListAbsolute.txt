@@ -1,0 +1,9 @@
+C:\Users\Ryan\Documents\GitHub\CSC224\lab06\lab06\bin\Debug\lab06.exe.config
+C:\Users\Ryan\Documents\GitHub\CSC224\lab06\lab06\bin\Debug\lab06.exe
+C:\Users\Ryan\Documents\GitHub\CSC224\lab06\lab06\bin\Debug\lab06.pdb
+C:\Users\Ryan\Documents\GitHub\CSC224\lab06\lab06\obj\Debug\lab06.csprojAssemblyReference.cache
+C:\Users\Ryan\Documents\GitHub\CSC224\lab06\lab06\obj\Debug\lab06.Form1.resources
+C:\Users\Ryan\Documents\GitHub\CSC224\lab06\lab06\obj\Debug\lab06.Properties.Resources.resources
+C:\Users\Ryan\Documents\GitHub\CSC224\lab06\lab06\obj\Debug\lab06.csproj.GenerateResource.cache
+C:\Users\Ryan\Documents\GitHub\CSC224\lab06\lab06\obj\Debug\lab06.exe
+C:\Users\Ryan\Documents\GitHub\CSC224\lab06\lab06\obj\Debug\lab06.pdb
