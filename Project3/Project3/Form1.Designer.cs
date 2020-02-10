@@ -82,7 +82,7 @@
             // 
             this.btnProcess.BackColor = System.Drawing.SystemColors.Control;
             this.btnProcess.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnProcess.Location = new System.Drawing.Point(158, 132);
+            this.btnProcess.Location = new System.Drawing.Point(234, 133);
             this.btnProcess.Name = "btnProcess";
             this.btnProcess.Size = new System.Drawing.Size(104, 43);
             this.btnProcess.TabIndex = 5;
