@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\lab06"
+    "\\lab06\\bin",
+    "\\lab06\\bin\\Debug",
+    "\\lab06\\obj",
+    "\\lab06\\obj\\Debug"
   ],
-  "SelectedNode": "\\lab06.sln",
+  "SelectedNode": "\\lab06",
   "PreviewInSolutionExplorer": false
 }

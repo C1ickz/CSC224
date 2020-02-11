@@ -1,0 +1,10 @@
+H:\CSC224\ListOfObjects\bin\Debug\ListOfObjects.exe.config
+H:\CSC224\ListOfObjects\bin\Debug\ListOfObjects.exe
+H:\CSC224\ListOfObjects\bin\Debug\ListOfObjects.pdb
+H:\CSC224\ListOfObjects\obj\Debug\ListOfObjects.csprojAssemblyReference.cache
+H:\CSC224\ListOfObjects\obj\Debug\ListOfObjects.Form1.resources
+H:\CSC224\ListOfObjects\obj\Debug\ListOfObjects.Properties.Resources.resources
+H:\CSC224\ListOfObjects\obj\Debug\ListOfObjects.csproj.GenerateResource.cache
+H:\CSC224\ListOfObjects\obj\Debug\ListOfObjects.csproj.CoreCompileInputs.cache
+H:\CSC224\ListOfObjects\obj\Debug\ListOfObjects.exe
+H:\CSC224\ListOfObjects\obj\Debug\ListOfObjects.pdb

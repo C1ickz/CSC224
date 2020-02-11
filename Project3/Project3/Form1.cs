@@ -71,7 +71,6 @@ namespace Project3
                     else
                     {
                         transactionsAtVendors.Add(40, transactionAmounts[i]);
-
                     }
 
                 }
