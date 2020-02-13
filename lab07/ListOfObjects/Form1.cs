@@ -14,6 +14,7 @@ namespace ListOfObjects
 {
     public partial class Form1 : Form
     {
+        List<Vehicle> vehicles = new List<Vehicle>();
         public Form1()
         {
             InitializeComponent();
@@ -24,8 +25,11 @@ namespace ListOfObjects
             OpenFileDialog fileDialog = new OpenFileDialog();
             fileDialog.InitialDirectory = "H:\\CSC224\\";
             fileDialog.Filter = "Text Files (*.txt)|*.txt|All Files (*.*)|*.*";
+            System.Console.WriteLine("before showdialog");
             if (fileDialog.ShowDialog() == DialogResult.OK)
             {
+                System.Console.WriteLine("after showdialog");
+
                 string fileName = fileDialog.FileName;
                 FileStream fs = null;
                 try
@@ -38,14 +42,26 @@ namespace ListOfObjects
                     fs = new FileStream(fileName, FileMode.Open, FileAccess.Read);
                     StreamReader textIn = new StreamReader(fs);
 
-                    int lineNum = 0;
                     txtOutputArea.Text = "Contents of file \"" + fileName + "\":\r\n==================\r\n";
+                    System.Console.WriteLine("Ready to read file \"" + fileName);
                     while (textIn.Peek() != -1)  // not at end of file
                     {
-                        lineNum++;
                         string theLine = textIn.ReadLine();
-                        txtOutputArea.Text += theLine + "\r\n";
-                    }
+                        System.Console.WriteLine(theLine);
+
+                        string[] data = theLine.Split(',');
+                        for (int i = 0; i < data.Length; i++)
+                        {
+                            data[i] = data[i].Trim();
+                        }
+                        int year = Convert.ToInt32(data[2]);
+                        decimal miles = Convert.ToDecimal(data[3]);
+                        decimal price = Convert.ToDecimal(data[4]);
+                        Vehicle currentCar = new Vehicle(data[0], data[1], year,
+                            miles, price);
+                        vehicles.Add(currentCar);
+             }
+                    DisplayVehicles();
                     txtOutputArea.Text += "================== end of file\r\n";
                 }
                 catch (Exception ex)
@@ -58,6 +74,25 @@ namespace ListOfObjects
                         fs.Close();
                 }
             }
+        }
+
+        public void DisplayVehicles()
+        {
+            int lineNum = 0;
+            foreach(Vehicle vehicle in vehicles)
+            {
+                txtOutputArea.AppendText("Car # " + lineNum + ": " + vehicle.GetDisplayText() + "\r\n");
+
+            }
+        }
+
+        private void btnAddNew_Click(object sender, EventArgs e)
+        {
+            frmAddVehicle addVehicleForm = new frmAddVehicle();
+            addVehicleForm.FormBorderStyle = FormBorderStyle.FixedDialog;
+            addVehicleForm.ControlBox = false;
+            addVehicleForm.MaximizeBox = false;
+            addVehicleForm.ShowDialog();
         }
     }
 }

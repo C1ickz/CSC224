@@ -10,8 +10,8 @@ namespace ListOfObjects
     class Vehicle
     {
 
-        private String make;
-        private String model;
+        private string make;
+        private string model;
         private int year;
         private decimal miles;
         private decimal price;
@@ -86,7 +86,7 @@ namespace ListOfObjects
                 }
                 else
                 {
-                    Miles = value;
+                    miles = value;
                 }
             }
         }
@@ -99,9 +99,9 @@ namespace ListOfObjects
             }
             set
             {
-                if(value < 0)
+                if(value <= 0)
                 {
-                    MessageBox.Show("Price cannot be less than 0", "Price Error");
+                    MessageBox.Show("Price cannot be less than $0.00", "Price Error");
                     price = 0;
                 }
                 else
@@ -113,7 +113,9 @@ namespace ListOfObjects
 
         public string GetDisplayText()
         {
-            return "A " + this.year + " " + this.make + " " + this.model + " with " + this.miles + " miles, selling for " + this.price.ToString("c");
+            return "a " + this.year + " " + this.make + " " +
+                this.model + " with " + this.miles + 
+                " miles, selling for " + this.price.ToString("c");
         }
 
 
