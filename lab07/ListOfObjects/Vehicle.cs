@@ -95,7 +95,7 @@ namespace ListOfObjects
         {
             get
             {
-                return Price;
+                return price;
             }
             set
             {
