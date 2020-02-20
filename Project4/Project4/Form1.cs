@@ -118,7 +118,7 @@ namespace Project4
             }
             catch(Exception ex)
             {
-                MessageBox.Show("Error when attempting to save the file", "File save error")
+                MessageBox.Show("Error when attempting to save the file", "File save error");
             }
         }
     }
