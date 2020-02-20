@@ -1,0 +1,4 @@
+Volkswagen,Tiguan,2018,4369.4,15000.00
+Honda,Civic,2019,5050.8,17998.00
+Nissan,Rouge,1900,6531.7,22998.00
+Ford,Focus,2018,22476.3,12498.00
