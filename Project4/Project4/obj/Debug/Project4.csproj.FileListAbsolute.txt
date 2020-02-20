@@ -1,0 +1,9 @@
+C:\Users\Ryan\Documents\GitHub\CSC224\Project4\Project4\bin\Debug\Project4.exe.config
+C:\Users\Ryan\Documents\GitHub\CSC224\Project4\Project4\bin\Debug\Project4.exe
+C:\Users\Ryan\Documents\GitHub\CSC224\Project4\Project4\bin\Debug\Project4.pdb
+C:\Users\Ryan\Documents\GitHub\CSC224\Project4\Project4\obj\Debug\Project4.csprojAssemblyReference.cache
+C:\Users\Ryan\Documents\GitHub\CSC224\Project4\Project4\obj\Debug\Project4.Form1.resources
+C:\Users\Ryan\Documents\GitHub\CSC224\Project4\Project4\obj\Debug\Project4.Properties.Resources.resources
+C:\Users\Ryan\Documents\GitHub\CSC224\Project4\Project4\obj\Debug\Project4.csproj.GenerateResource.cache
+C:\Users\Ryan\Documents\GitHub\CSC224\Project4\Project4\obj\Debug\Project4.exe
+C:\Users\Ryan\Documents\GitHub\CSC224\Project4\Project4\obj\Debug\Project4.pdb
