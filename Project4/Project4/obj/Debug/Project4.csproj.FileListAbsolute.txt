@@ -7,3 +7,12 @@ C:\Users\Ryan\Documents\GitHub\CSC224\Project4\Project4\obj\Debug\Project4.Prope
 C:\Users\Ryan\Documents\GitHub\CSC224\Project4\Project4\obj\Debug\Project4.csproj.GenerateResource.cache
 C:\Users\Ryan\Documents\GitHub\CSC224\Project4\Project4\obj\Debug\Project4.exe
 C:\Users\Ryan\Documents\GitHub\CSC224\Project4\Project4\obj\Debug\Project4.pdb
+H:\CSC224\Project4\Project4\bin\Debug\Project4.exe.config
+H:\CSC224\Project4\Project4\bin\Debug\Project4.exe
+H:\CSC224\Project4\Project4\bin\Debug\Project4.pdb
+H:\CSC224\Project4\Project4\obj\Debug\Project4.csprojAssemblyReference.cache
+H:\CSC224\Project4\Project4\obj\Debug\Project4.Form1.resources
+H:\CSC224\Project4\Project4\obj\Debug\Project4.Properties.Resources.resources
+H:\CSC224\Project4\Project4\obj\Debug\Project4.csproj.GenerateResource.cache
+H:\CSC224\Project4\Project4\obj\Debug\Project4.exe
+H:\CSC224\Project4\Project4\obj\Debug\Project4.pdb
