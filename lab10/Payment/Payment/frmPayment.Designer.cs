@@ -193,6 +193,7 @@
             this.MaximizeBox = false;
             this.Name = "frmPayment";
             this.Text = "Payment";
+            this.Load += new System.EventHandler(this.frmPayment_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

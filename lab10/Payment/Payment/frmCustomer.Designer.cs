@@ -45,6 +45,7 @@ namespace Payment
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 21;
             this.btnExit.Text = "E&xit";
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btnSave
             // 
@@ -53,6 +54,7 @@ namespace Payment
             this.btnSave.Size = new System.Drawing.Size(75, 23);
             this.btnSave.TabIndex = 20;
             this.btnSave.Text = "&Save";
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // lblPayment
             // 
@@ -61,6 +63,8 @@ namespace Payment
             this.lblPayment.Name = "lblPayment";
             this.lblPayment.Size = new System.Drawing.Size(200, 80);
             this.lblPayment.TabIndex = 19;
+            this.lblPayment.TextChanged += new System.EventHandler(this.dataChanged);
+            this.lblPayment.Click += new System.EventHandler(this.lblPayment_Click);
             // 
             // btnSelectPayment
             // 
@@ -69,6 +73,7 @@ namespace Payment
             this.btnSelectPayment.Size = new System.Drawing.Size(104, 23);
             this.btnSelectPayment.TabIndex = 18;
             this.btnSelectPayment.Text = "Select Payment";
+            this.btnSelectPayment.Click += new System.EventHandler(this.btnSelectPayment_Click);
             // 
             // label2
             // 
@@ -95,7 +100,7 @@ namespace Payment
             this.cboNames.Size = new System.Drawing.Size(200, 21);
             this.cboNames.TabIndex = 15;
             // 
-            // Form1
+            // frmCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -108,9 +113,11 @@ namespace Payment
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cboNames);
-            this.Name = "Form1";
+            this.Name = "frmCustomer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmCustomer";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmCustomer_FormClosing);
+            this.Load += new System.EventHandler(this.frmCustomer_Load);
             this.ResumeLayout(false);
 
         }
