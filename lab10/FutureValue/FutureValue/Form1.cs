@@ -19,6 +19,7 @@ namespace FutureValue
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
+            lstFutureValue.Items.Clear();
             try
             {
                 if (IsValidData())
