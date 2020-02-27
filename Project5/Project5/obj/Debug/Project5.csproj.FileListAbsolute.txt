@@ -1,0 +1,9 @@
+H:\CSC224\Project5\Project5\bin\Debug\Project5.exe.config
+H:\CSC224\Project5\Project5\bin\Debug\Project5.exe
+H:\CSC224\Project5\Project5\bin\Debug\Project5.pdb
+H:\CSC224\Project5\Project5\obj\Debug\Project5.csprojAssemblyReference.cache
+H:\CSC224\Project5\Project5\obj\Debug\Project5.Form1.resources
+H:\CSC224\Project5\Project5\obj\Debug\Project5.Properties.Resources.resources
+H:\CSC224\Project5\Project5\obj\Debug\Project5.csproj.GenerateResource.cache
+H:\CSC224\Project5\Project5\obj\Debug\Project5.exe
+H:\CSC224\Project5\Project5\obj\Debug\Project5.pdb
