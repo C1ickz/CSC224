@@ -53,6 +53,7 @@
             this.btnBookTable.TabIndex = 1;
             this.btnBookTable.Text = "View Book Table";
             this.btnBookTable.UseVisualStyleBackColor = true;
+            this.btnBookTable.Click += new System.EventHandler(this.btnBookTable_Click);
             // 
             // btnBookCopiesTable
             // 
@@ -62,6 +63,7 @@
             this.btnBookCopiesTable.TabIndex = 2;
             this.btnBookCopiesTable.Text = "View BookCopies Table";
             this.btnBookCopiesTable.UseVisualStyleBackColor = true;
+            this.btnBookCopiesTable.Click += new System.EventHandler(this.btnBookCopiesTable_Click);
             // 
             // btnBranchTable
             // 
@@ -71,6 +73,7 @@
             this.btnBranchTable.TabIndex = 3;
             this.btnBranchTable.Text = "View Branch Table";
             this.btnBranchTable.UseVisualStyleBackColor = true;
+            this.btnBranchTable.Click += new System.EventHandler(this.btnBranchTable_Click);
             // 
             // btnAuthorTable
             // 
@@ -80,6 +83,7 @@
             this.btnAuthorTable.TabIndex = 4;
             this.btnAuthorTable.Text = "View Author Table";
             this.btnAuthorTable.UseVisualStyleBackColor = true;
+            this.btnAuthorTable.Click += new System.EventHandler(this.btnAuthorTable_Click);
             // 
             // Form1
             // 

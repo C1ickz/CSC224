@@ -1,0 +1,13 @@
+H:\CSC224\lab11\lab11\bin\Debug\lab11.exe.config
+H:\CSC224\lab11\lab11\bin\Debug\lab11.exe
+H:\CSC224\lab11\lab11\bin\Debug\lab11.pdb
+H:\CSC224\lab11\lab11\obj\Debug\lab11.csprojAssemblyReference.cache
+H:\CSC224\lab11\lab11\obj\Debug\lab11.Form1.resources
+H:\CSC224\lab11\lab11\obj\Debug\lab11.frmViewBook.resources
+H:\CSC224\lab11\lab11\obj\Debug\lab11.Properties.Resources.resources
+H:\CSC224\lab11\lab11\obj\Debug\lab11.csproj.GenerateResource.cache
+H:\CSC224\lab11\lab11\obj\Debug\lab11.exe
+H:\CSC224\lab11\lab11\obj\Debug\lab11.pdb
+H:\CSC224\lab11\lab11\obj\Debug\lab11.frmViewAuthor.resources
+H:\CSC224\lab11\lab11\obj\Debug\lab11.frmViewBookCopies.resources
+H:\CSC224\lab11\lab11\obj\Debug\lab11.frmViewBranch.resources

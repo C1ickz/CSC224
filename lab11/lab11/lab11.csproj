@@ -57,10 +57,46 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmViewAuthor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewAuthor.Designer.cs">
+      <DependentUpon>frmViewAuthor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewBook.Designer.cs">
+      <DependentUpon>frmViewBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewBookCopies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewBookCopies.Designer.cs">
+      <DependentUpon>frmViewBookCopies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewBranch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewBranch.Designer.cs">
+      <DependentUpon>frmViewBranch.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewAuthor.resx">
+      <DependentUpon>frmViewAuthor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewBook.resx">
+      <DependentUpon>frmViewBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewBookCopies.resx">
+      <DependentUpon>frmViewBookCopies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewBranch.resx">
+      <DependentUpon>frmViewBranch.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

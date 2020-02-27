@@ -17,6 +17,28 @@ namespace lab11
             InitializeComponent();
         }
 
-    
+        private void btnBookTable_Click(object sender, EventArgs e)
+        {
+            frmViewBook viewBook = new frmViewBook();
+            viewBook.ShowDialog();
+        }
+
+        private void btnAuthorTable_Click(object sender, EventArgs e)
+        {
+            frmViewAuthor viewAuthor = new frmViewAuthor();
+            viewAuthor.ShowDialog();
+        }
+
+        private void btnBranchTable_Click(object sender, EventArgs e)
+        {
+            frmViewBranch viewBranch = new frmViewBranch();
+            viewBranch.ShowDialog();
+        }
+
+        private void btnBookCopiesTable_Click(object sender, EventArgs e)
+        {
+            frmViewBookCopies viewBookCopies = new frmViewBookCopies();
+            viewBookCopies.ShowDialog();
+        }
     }
 }
