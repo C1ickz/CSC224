@@ -1326,12 +1326,18 @@ SELECT CustomerID, Name, Address, City, State, ZipCode FROM dbo.csc224RyanCustom
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitCommandCollection() {
-            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
+            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[2];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
             this._commandCollection[0].CommandText = "SELECT CustomerID, Name, Address, City, State, ZipCode FROM dbo.csc224RyanCustome" +
                 "rs";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[1].Connection = this.Connection;
+            this._commandCollection[1].CommandText = "SELECT CustomerID, Name, Address, City, State, ZipCode \r\nFROM dbo.csc224RyanCusto" +
+                "mers\r\nWHERE (CustomerID = @CustomerID)";
+            this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@CustomerID", global::System.Data.SqlDbType.Int, 4, global::System.Data.ParameterDirection.Input, 0, 0, "CustomerID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1356,6 +1362,20 @@ SELECT CustomerID, Name, Address, City, State, ZipCode FROM dbo.csc224RyanCustom
             ExpDataSet.csc224RyanCustomersDataTable dataTable = new ExpDataSet.csc224RyanCustomersDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
+        public virtual int FillByCustomerId(ExpDataSet.csc224RyanCustomersDataTable dataTable, int CustomerID) {
+            this.Adapter.SelectCommand = this.CommandCollection[1];
+            this.Adapter.SelectCommand.Parameters[0].Value = ((int)(CustomerID));
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
+            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1742,11 +1762,17 @@ SELECT StateCode, StateName FROM dbo.csc224RyanStates WHERE (StateCode = @StateC
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         private void InitCommandCollection() {
-            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[1];
+            this._commandCollection = new global::System.Data.SqlClient.SqlCommand[2];
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
             this._commandCollection[0].CommandText = "SELECT StateCode, StateName FROM dbo.csc224RyanStates";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
+            this._commandCollection[1].Connection = this.Connection;
+            this._commandCollection[1].CommandText = "SELECT StateCode, StateName \r\nFROM dbo.csc224RyanStates\r\nWHERE (StateCode = @Stat" +
+                "eCode)";
+            this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
+            this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@StateCode", global::System.Data.SqlDbType.Char, 2, global::System.Data.ParameterDirection.Input, 0, 0, "StateCode", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1768,6 +1794,42 @@ SELECT StateCode, StateName FROM dbo.csc224RyanStates WHERE (StateCode = @StateC
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
         public virtual ExpDataSet.csc224RyanStatesDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
+            ExpDataSet.csc224RyanStatesDataTable dataTable = new ExpDataSet.csc224RyanStatesDataTable();
+            this.Adapter.Fill(dataTable);
+            return dataTable;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, false)]
+        public virtual int FillByState(ExpDataSet.csc224RyanStatesDataTable dataTable, string StateCode) {
+            this.Adapter.SelectCommand = this.CommandCollection[1];
+            if ((StateCode == null)) {
+                throw new global::System.ArgumentNullException("StateCode");
+            }
+            else {
+                this.Adapter.SelectCommand.Parameters[0].Value = ((string)(StateCode));
+            }
+            if ((this.ClearBeforeFill == true)) {
+                dataTable.Clear();
+            }
+            int returnValue = this.Adapter.Fill(dataTable);
+            return returnValue;
+        }
+        
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+        [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
+        [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, false)]
+        public virtual ExpDataSet.csc224RyanStatesDataTable GetDataBy(string StateCode) {
+            this.Adapter.SelectCommand = this.CommandCollection[1];
+            if ((StateCode == null)) {
+                throw new global::System.ArgumentNullException("StateCode");
+            }
+            else {
+                this.Adapter.SelectCommand.Parameters[0].Value = ((string)(StateCode));
+            }
             ExpDataSet.csc224RyanStatesDataTable dataTable = new ExpDataSet.csc224RyanStatesDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;

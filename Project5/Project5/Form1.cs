@@ -33,12 +33,52 @@ namespace Project5
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'expDataSet.csc224RyanStates' table. You can move, or remove it, as needed.
             this.csc224RyanStatesTableAdapter.Fill(this.expDataSet.csc224RyanStates);
-            // TODO: This line of code loads data into the 'expDataSet.csc224RyanCustomers' table. You can move, or remove it, as needed.
-            this.csc224RyanCustomersTableAdapter.Fill(this.expDataSet.csc224RyanCustomers);
+            cboStates.SelectedIndex = -1;
+           // this.csc224RyanCustomersTableAdapter.Fill(this.expDataSet.csc224RyanCustomers);
 
         }
 
+        private void fillByCustomerIdToolStripButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int customerID = Convert.ToInt32(customerIDToolStripTextBox.Text);
+                this.csc224RyanCustomersTableAdapter.FillByCustomerId(this.expDataSet.csc224RyanCustomers, customerID);
+                if (csc224RyanCustomersBindingSource.Count == 0)
+                    MessageBox.Show("No customers are currently in the database taht have this id", "Customer not found");
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Customer ID must be an int", "Entry Error");
+            }
+
+        }
+
+        private void customerIDLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cancelButton_Click(object sender, EventArgs e)
+        {
+            this.csc224RyanCustomersBindingSource.CancelEdit();
+        }
+
+        private void tsbGetAllCustomers_Click(object sender, EventArgs e)
+        {
+            this.csc224RyanCustomersTableAdapter.Fill(this.expDataSet.csc224RyanCustomers);
+        }
+
+        private void tsbFillByState_Click(object sender, EventArgs e)
+        {
+      
+            string state = txtStateToFill.Text;
+            this.csc224RyanStatesTableAdapter.FillByState(this.expDataSet.csc224RyanStates, state);
+ 
+         
+        }
+
+       
     }
 }

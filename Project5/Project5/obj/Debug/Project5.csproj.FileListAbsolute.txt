@@ -7,3 +7,12 @@ H:\CSC224\Project5\Project5\obj\Debug\Project5.Properties.Resources.resources
 H:\CSC224\Project5\Project5\obj\Debug\Project5.csproj.GenerateResource.cache
 H:\CSC224\Project5\Project5\obj\Debug\Project5.exe
 H:\CSC224\Project5\Project5\obj\Debug\Project5.pdb
+C:\Users\Ryan\Documents\GitHub\CSC224\Project5\Project5\bin\Debug\Project5.exe.config
+C:\Users\Ryan\Documents\GitHub\CSC224\Project5\Project5\bin\Debug\Project5.exe
+C:\Users\Ryan\Documents\GitHub\CSC224\Project5\Project5\bin\Debug\Project5.pdb
+C:\Users\Ryan\Documents\GitHub\CSC224\Project5\Project5\obj\Debug\Project5.csprojAssemblyReference.cache
+C:\Users\Ryan\Documents\GitHub\CSC224\Project5\Project5\obj\Debug\Project5.Form1.resources
+C:\Users\Ryan\Documents\GitHub\CSC224\Project5\Project5\obj\Debug\Project5.Properties.Resources.resources
+C:\Users\Ryan\Documents\GitHub\CSC224\Project5\Project5\obj\Debug\Project5.csproj.GenerateResource.cache
+C:\Users\Ryan\Documents\GitHub\CSC224\Project5\Project5\obj\Debug\Project5.exe
+C:\Users\Ryan\Documents\GitHub\CSC224\Project5\Project5\obj\Debug\Project5.pdb
